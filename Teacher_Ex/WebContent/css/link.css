@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{margin:0; padding:0;}  /*距离0，去除ul的点*/
+
+.ha{position:absolute; width:850px; height:300px; margin-top:50px ;margin-left:50px}
+
+.link-txt{ position:absolute; width:850px; height:300px; margin-top:-150px; margin-left:-425px; top:50%; left:50%;}
+.link-txt ul{ display:block; width:850px;}
+.link-txt ul li{ list-style:none; margin-bottom:20px; line-height:94px; color:#3d3d3d; font-size:42px; font-family:"Microsoft YaHei",SimSun,SimHei; }
+.link-txt ul li a{ color:#3d3d3d; text-decoration:none;}
+.link-txt ul li a:hover{ text-decoration:none; color:#0c63bc;}
+
+.fxbox{ width:17px; height:17px; background:#318deb;display: inline-block; margin-right:10px; vertical-align:middle; }
+
+.copyright{ position:absolute; bottom:50px;left:0; width:100%;}
+.copyright p{ text-align:center; font-size:14px;font-family:"Microsoft YaHei",SimSun,SimHei; color:#333;}
+.copyright p a{ color:#333; text-decoration:none;}
+.copyright p a:hover{ text-decoration:underline;}
+.link-footer{ width:100%; position:absolute; bottom:0; left:0; background:url(../images/link_bottomBg.png) repeat-x; height:140px;}

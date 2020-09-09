@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+body{
+    padding:0;
+    margin:0;
+}
+div.body{
+    width:100%;
+    height:1030px;
+    background-image:url("../images/forget1.jpg");
+    background-size:100% 200%;
+}
+div.main{
+    position:relative;
+    left:35%;
+    top:27%;
+    width:700px;
+    height:420px;
+    background-image:url("../images/forget2.png");
+    background-size:100% 100%;
+    opacity:0.8;
+}
+div.user{
+    position:relative;
+    left:20%;
+    width:500px;
+    height:30px;
+}
+div.pwd{
+    position:relative;
+    left:20%;
+    width:500px;
+    height:30px;
+}
+div.input{
+    position:relative;
+    left:23%;
+    width:500px;
+    height:45px;
+}
+
+span.tou{
+    font-family:"microsoft yahei";
+    font-size:60px;
+}
+form.ss{
+    position:relative;
+    left:0%;
+    top:10%;
+}

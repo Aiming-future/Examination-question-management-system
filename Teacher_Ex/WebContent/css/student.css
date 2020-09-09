@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+
+.hstu{position:absolute; width:400px; height:30%; top:8% ;left:10%}
+.hstu h1{font-size:60px}
+
+.right{position:absolute;width:60%;height:400px;left:30%;top:25%;border-style: groove;background-color:rgb(100,155,196)}
+.right th{height:60px}
+.right td{height:50px}
+
+.left{position:absolute;width:200px;height:40px;left:300px;top:25%}
+.left input{width:150px;height:90px;font-size:25px}
+.bl{background-color:rgb(24,225,231);border:0px}
+.gr{background-color:rgb(38,226,29);border:0px}
+.re{background-color:rgb(227,28,28);border:0px}
+.abc{background-color:rgb(216,35,220);border:0px}
+.fh{background-color:rgb(245,234,10);border:0px}
+
+.tinsert{position:absolute;Z-index:0;width:24%;padding:28px;top:200px;left:36%;background-color:rgb(24,225,231);
+    height:auto; border:1px #111 solid;
+    display:none;}
+.tinsert show{display:block;}
+.tinsert x{ font-size:18px; text-align:right; display:block;}
+.tinsert input{width:40%; font-size:25px; margin-top:20px;margin-left:30%}
+
+.tfind{position:absolute;Z-index:1;width:24%;top:200px; left:36%; padding:0px;background-color:white;background-color:rgb(216,35,220);
+    height:20%; border:1px #111 solid;
+    display:none;}
+.tfind show{display:block;}
+.tfind x{ font-size:18px; text-align:right; display:block;}
+.tfind input{width:40%;heigth:30%; font-size:18px;margin-left:30%;margin-top:7%}
